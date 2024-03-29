@@ -1,0 +1,89 @@
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  /* height: 80%; */
+  /* width: 80vw; */
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  /* width: 345px; */
+  justify-content: space-between;
+  background-color: #6D214F;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.checkbox .iconfill{
+  border-color: white;
+  color: #05c46b;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.info-icon-container {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+
+  border-radius: 5px;
+  /* padding: 10px; */
+  top: '50%';
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+
+
+  z-index: 999;
+  /* Ensure the popup appears above other content */
+}
+
+/* .info-icon-container {
+  position: relative;
+} */
+
+
+
+
+/* .create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+} */
+
+/* .create_form button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+} */
